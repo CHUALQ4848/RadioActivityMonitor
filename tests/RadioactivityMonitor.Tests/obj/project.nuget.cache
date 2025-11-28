@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5mUkcgQKAlQ=",
+  "dgSpecHash": "iKZ3Q2eqWLc=",
   "success": true,
   "projectFilePath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
   "expectedPackageFiles": [
@@ -20,9 +20,7 @@
     "/Users/louis.chua/.nuget/packages/xunit.extensibility.core/2.9.3/xunit.extensibility.core.2.9.3.nupkg.sha512",
     "/Users/louis.chua/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "/Users/louis.chua/.nuget/packages/xunit.runner.visualstudio/3.1.4/xunit.runner.visualstudio.3.1.4.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/xunitxml.testlogger/7.0.2/xunitxml.testlogger.7.0.2.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+    "/Users/louis.chua/.nuget/packages/xunitxml.testlogger/7.0.2/xunitxml.testlogger.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

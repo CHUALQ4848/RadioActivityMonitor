@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+keRBdqk74Y=",
+  "dgSpecHash": "G7MJP/N2iOo=",
   "success": true,
   "projectFilePath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
-  "expectedPackageFiles": [
-    "/Users/louis.chua/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -60,28 +60,28 @@ dotnet build
 
 ### Running Tests
 
-Run all unit tests with detailed output:
+Run all unit tests:
 
 ```bash
-dotnet test
+dotnet test tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj
+```
+
+Run tests with detailed output:
+
+```bash
+dotnet test tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj --verbosity detailed
 ```
 
 Run tests with code coverage:
 
 ```bash
-dotnet test /p:CollectCoverage=true
+dotnet test tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj /p:CollectCoverage=true
 ```
 
 Run specific test class:
 
 ```bash
-dotnet test --filter FullyQualifiedName~AlarmTests
-```
-
-Run tests with verbose output:
-
-```bash
-dotnet test --verbosity detailed
+dotnet test tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj --filter FullyQualifiedName~AlarmTests
 ```
 
 ## 🐳 Docker Deployment
