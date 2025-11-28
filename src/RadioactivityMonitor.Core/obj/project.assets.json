@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+      "projectUniqueName": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
       "projectName": "RadioactivityMonitor.Core",
-      "projectPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+      "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
       "packagesPath": "/Users/louis.chua/.nuget/packages/",
-      "outputPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/obj/",
+      "outputPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/louis.chua/.nuget/NuGet/NuGet.Config"

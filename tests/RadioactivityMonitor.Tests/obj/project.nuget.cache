@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RvKyQZGmmn0=",
+  "dgSpecHash": "5mUkcgQKAlQ=",
   "success": true,
-  "projectFilePath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
+  "projectFilePath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/louis.chua/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",
     "/Users/louis.chua/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",
@@ -21,8 +21,8 @@
     "/Users/louis.chua/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "/Users/louis.chua/.nuget/packages/xunit.runner.visualstudio/3.1.4/xunit.runner.visualstudio.3.1.4.nupkg.sha512",
     "/Users/louis.chua/.nuget/packages/xunitxml.testlogger/7.0.2/xunitxml.testlogger.7.0.2.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/louis.chua/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512"
+    "/Users/louis.chua/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/louis.chua/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

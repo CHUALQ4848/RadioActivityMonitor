@@ -14,6 +14,9 @@ RUN dotnet restore tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.c
 COPY src/ ./src/
 COPY tests/ ./tests/
 
+# Re-restore dependencies to ensure all packages are available
+RUN dotnet restore tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj --force
+
 # Build the solution
 RUN dotnet build src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj -c Release --no-restore
 RUN dotnet build tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj -c Release --no-restore

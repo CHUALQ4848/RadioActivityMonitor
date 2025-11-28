@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {}
+    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {}
   },
   "projects": {
-    "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
+    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+        "projectUniqueName": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
         "projectName": "RadioactivityMonitor.Core",
-        "projectPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+        "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
         "packagesPath": "/Users/louis.chua/.nuget/packages/",
-        "outputPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/obj/",
+        "outputPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/louis.chua/.nuget/NuGet/NuGet.Config"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {
+    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
+        "projectUniqueName": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
         "projectName": "RadioactivityMonitor.Tests",
-        "projectPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
+        "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
         "packagesPath": "/Users/louis.chua/.nuget/packages/",
-        "outputPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/tests/RadioactivityMonitor.Tests/obj/",
+        "outputPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/louis.chua/.nuget/NuGet/NuGet.Config"
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
-                "projectPath": "/Users/louis.chua/Documents/Personal/NET_Alarm_Test/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj"
+              "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
+                "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj"
               }
             }
           }
@@ -132,6 +132,10 @@
             "xunit": {
               "target": "Package",
               "version": "[2.9.3, )"
+            },
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[1.18.0, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",

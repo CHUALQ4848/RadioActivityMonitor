@@ -43,7 +43,7 @@ This project implements a radioactivity monitoring system designed for nuclear p
 1. **Clone or navigate to the repository:**
 
 ```bash
-cd /path/to/NET_Alarm_Test
+cd /path/to/RadioActivityMonitor
 ```
 
 2. **Restore dependencies:**
