@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  # Service for running unit tests
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
+    container_name: radioactivity-monitor-tests
+    volumes:
+      - ./test-results:/app/test-results
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+    command: dotnet test tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj --no-build -c Release --logger "console;verbosity=detailed" --logger "trx;LogFileName=TestResults.trx" --results-directory /app/test-results
+
+  # Service for building the project
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
+    container_name: radioactivity-monitor-build
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - build-output:/app/output
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+    command: dotnet build -c Release --no-restore
+
+  # Service for development with interactive shell
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
+    container_name: radioactivity-monitor-dev
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./test-results:/app/test-results
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    entrypoint: ["/bin/bash"]
+
+volumes:
+  build-output:
+    driver: local
+
+networks:
+  default:
+    name: radioactivity-monitor-network
