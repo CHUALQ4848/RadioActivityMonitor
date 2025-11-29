@@ -13,6 +13,13 @@ namespace RadioactivityMonitor.Core
         private long _alarmCount = 0;
 
         /// <summary>
+        /// Default constructor using real Sensor
+        /// </summary>
+        public Alarm() : this(new Sensor())
+        {
+        }
+
+        /// <summary>
         /// Constructor with dependency injection for sensor
         /// </summary>
         /// <param name="sensor">The sensor to use for measurements</param>

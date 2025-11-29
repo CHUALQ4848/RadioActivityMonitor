@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RadioactivityMonitor.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e332fc582518f614f76d17dee4f5da86011135a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96c2982206facc0dddf4a8f18f2a79cdd815e652")]
 [assembly: System.Reflection.AssemblyProductAttribute("RadioactivityMonitor.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RadioactivityMonitor.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

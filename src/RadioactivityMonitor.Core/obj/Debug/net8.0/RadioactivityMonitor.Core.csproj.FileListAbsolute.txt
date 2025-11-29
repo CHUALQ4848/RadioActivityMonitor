@@ -33,3 +33,15 @@
 /Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/refint/RadioactivityMonitor.Core.dll
 /Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.pdb
 /Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/ref/RadioactivityMonitor.Core.dll
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/bin/Debug/net8.0/RadioactivityMonitor.Core.deps.json
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/bin/Debug/net8.0/RadioactivityMonitor.Core.dll
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/bin/Debug/net8.0/RadioactivityMonitor.Core.pdb
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.AssemblyInfoInputs.cache
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.AssemblyInfo.cs
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.csproj.CoreCompileInputs.cache
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.sourcelink.json
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.dll
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/refint/RadioactivityMonitor.Core.dll
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/RadioactivityMonitor.Core.pdb
+/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/Debug/net8.0/ref/RadioactivityMonitor.Core.dll
