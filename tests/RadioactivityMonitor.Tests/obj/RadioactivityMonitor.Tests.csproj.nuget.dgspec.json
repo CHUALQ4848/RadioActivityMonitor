@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {}
+    "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {}
   },
   "projects": {
-    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
+    "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+        "projectUniqueName": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
         "projectName": "RadioactivityMonitor.Core",
-        "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
-        "packagesPath": "/Users/louis.chua/.nuget/packages/",
-        "outputPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/",
+        "projectPath": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj",
+        "packagesPath": "/Users/chualouis/.nuget/packages/",
+        "outputPath": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/louis.chua/.nuget/NuGet/NuGet.Config"
+          "/Users/chualouis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/louis.chua/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {
+    "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
+        "projectUniqueName": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
         "projectName": "RadioactivityMonitor.Tests",
-        "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
-        "packagesPath": "/Users/louis.chua/.nuget/packages/",
-        "outputPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/obj/",
+        "projectPath": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/RadioactivityMonitor.Tests.csproj",
+        "packagesPath": "/Users/chualouis/.nuget/packages/",
+        "outputPath": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/tests/RadioactivityMonitor.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/louis.chua/.nuget/NuGet/NuGet.Config"
+          "/Users/chualouis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -84,8 +85,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
-                "projectPath": "/Users/louis.chua/Documents/Personal/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj"
+              "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj": {
+                "projectPath": "/Users/chualouis/Documents/cheil-proj/RadioActivityMonitor/src/RadioactivityMonitor.Core/RadioactivityMonitor.Core.csproj"
               }
             }
           }
@@ -99,7 +100,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -146,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/louis.chua/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

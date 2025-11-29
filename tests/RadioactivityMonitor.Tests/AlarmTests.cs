@@ -405,5 +405,34 @@ namespace RadioactivityMonitor.Tests
         }
 
         #endregion
+
+        #region Reset and Re-trigger Tests
+
+        [Fact]
+        public void Reset_WhenAlarmIsOn_ReTriggersAlarm()
+        {
+            // Arrange
+            var sensor = new FakeSensor(25.0);
+            var alarm = new Alarm(sensor);
+            
+            // Act - First cycle
+            alarm.Check(); // Trigger alarm
+            alarm.Check(); // Alarm remains on
+            Assert.Equal(2, alarm.AlarmCount);
+
+            // Reset
+            alarm.Reset();
+
+            // Second cycle
+            alarm.Check(); // Trigger alarm again
+            alarm.Check(); // Alarm remains on
+
+            // Assert - Count restarted
+            Assert.Equal(2, alarm.AlarmCount);
+            Assert.True(alarm.AlarmOn);
+        }
+            
+
+        #endregion
     }
 }

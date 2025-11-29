@@ -21,12 +21,7 @@ namespace RadioactivityMonitor.Core
             _sensor = sensor ?? throw new ArgumentNullException(nameof(sensor));
         }
 
-        /// <summary>
-        /// Default constructor using the default Sensor implementation
-        /// </summary>
-        public Alarm() : this(new Sensor())
-        {
-        }
+       
 
         /// <summary>
         /// Checks the current radioactivity level and triggers alarm if out of range
@@ -52,7 +47,7 @@ namespace RadioactivityMonitor.Core
         }
 
         /// <summary>
-        /// Gets the number of times the alarm has been triggered
+        /// Gets the number of times the alarm has been triggered (NEW)
         /// </summary>
         public long AlarmCount
         {
@@ -60,7 +55,7 @@ namespace RadioactivityMonitor.Core
         }
 
         /// <summary>
-        /// Resets the alarm state
+        /// Resets the alarm state (NEW)
         /// </summary>
         public void Reset()
         {
